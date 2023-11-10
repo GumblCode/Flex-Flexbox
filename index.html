@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Flex Flexbox</title>
+	</head>
+	<body>
+		<section id="landing">
+			<div class="container">
+				<nav class="nav">
+					<div class="logo">
+						<h2>RVwebDev</h2>
+					</div>
+					<ul class="navbar">
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Services</a></li>
+					</ul>
+				</nav>
+				<button id="button">Black White</button>
+			</div>
+			<div class="container center">
+				<div class="cards">
+					<div class="card">
+						<i class="fas fa-code"></i>
+						<h4>Card 1</h4>
+						<div class="project">
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Libero, vero? Quisquam corporis eum sed, officiis necessitatibus
+								impedit! Explicabo illum quasi iste voluptates deserunt ab
+								voluptas quaerat? Tempore hic dolor quos ea tenetur provident
+								iure libero nam eaque quas asperiores
+							</p>
+						</div>
+					</div>
+					<div class="card">
+						<i class="fas fa-code"></i>
+						<h4>Card 2</h4>
+						<div class="project">
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Libero, vero? Quisquam corporis eum sed, officiis necessitatibus
+								impedit! Explicabo illum quasi iste voluptates deserunt ab
+								voluptas quaerat? Tempore hic dolor quos ea tenetur provident
+								iure libero nam eaque quas asperiores
+							</p>
+						</div>
+					</div>
+					<div class="card">
+						<i class="fas fa-code"></i>
+						<h4>Card 3</h4>
+						<div class="project">
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Libero, vero? Quisquam corporis eum sed, officiis necessitatibus
+								impedit! Explicabo illum quasi iste voluptates deserunt ab
+								voluptas quaerat? Tempore hic dolor quos ea tenetur provident
+								iure libero nam eaque quas asperiores
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script>
+			button.addEventListener("mouseover", setDark);
+			button.addEventListener("mouseout", setLight);
+
+			function setDark() {
+				document.body.style.background = "black";
+				button.style.color = "black";
+			}
+
+			function setLight() {
+				document.body.style.background = "white";
+				button.style.color = "white";
+			}
+		</script>
+	</body>
+</html>
