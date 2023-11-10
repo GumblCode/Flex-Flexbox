@@ -10,11 +10,11 @@
 }
 
 h2 {
-	font-size: 34px;
+	font-size: 3rem;
 }
 
 h4 {
-	font-size: 23px;
+	font-size: 2rem;
 	margin: 24px 0;
 }
 
@@ -46,7 +46,7 @@ h4 {
 
 .nav .navbar li {
 	list-style: none;
-	font-size: 24px;
+	font-size: 3rem;
 }
 
 .nav .navbar li a {
@@ -67,7 +67,7 @@ h4 {
 
 .cards .card {
 	padding: 40px;
-	font-size: 22px;
+	font-size: 1.5rem;
 	line-height: 1.5;
 	background: white;
 	margin: 10px 20px;
@@ -79,12 +79,7 @@ h4 {
 }
 
 .cards .card:hover {
-	transform: translateY(-5px);
-}
-
-.cards .card .fa-code {
-	color: rgb(40, 71, 246);
-	font-size: 40px;
+	transform: translateY(-20px);
 }
 
 @media screen and (max-width: 800px) {
@@ -121,7 +116,7 @@ h4 {
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	margin-top: 170px;
+	margin-top: 145px;
 	align-items: center;
 	font-family: Ink Free;
 	font-size: 40px;
@@ -129,6 +124,6 @@ h4 {
 	width: 300px;
 	height: 80px;
 	border-radius: 50%;
-	box-shadow: 20px 20px 81px #a9a7d7, -20px -20px 81px #e5e1ff;
-	background: linear-gradient(black, white);
+	box-shadow: 20px 20px 81px #303032, -20px -20px 50px #f0eef7;
+	background: linear-gradient(rgb(83, 80, 80), white);
 }
